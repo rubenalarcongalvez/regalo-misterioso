@@ -1,0 +1,21 @@
+<div style="height: 96vh">
+  <div
+    class="flex justify-center items-center relative cursor-pointer"
+    (click)="transicionar()"
+    [ngClass]="{
+      'animate-ping': clicado == true,
+      'animate-shake': clicado == false
+    }"
+  >
+    <img
+      src="assets/regalo.png"
+      alt="Regalo Misterioso"
+      class="bg-none w-1/2 max-h-screen relative"
+    />
+    <h3
+      class="lg:text-4xl font-serif rounded-md p-2 text-white md:text-2xl sm:text-base text-sm absolute"
+    >
+      Ábreme
+    </h3>
+  </div>
+</div>

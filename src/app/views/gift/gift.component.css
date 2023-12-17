@@ -1,0 +1,15 @@
+@keyframes shake {
+    0% {
+        transform: rotate(2deg);
+    }
+    50% {
+        transform: rotate(-2deg);
+    }
+}
+.animate-shake {
+    animation: shake .4s alternate-reverse infinite;
+}
+
+h3 {
+    background-color: rgba(0, 0, 0, 0.500);
+}

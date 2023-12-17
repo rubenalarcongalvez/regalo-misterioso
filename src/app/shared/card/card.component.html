@@ -1,0 +1,12 @@
+<section>
+  @if(!reversed) {
+    <img [src]="imagen" [alt]="titulo" class="min-h-full" />
+  }
+  <article>
+    <h1 class="text-lg md:text-2xl font-bold">{{titulo}}</h1>
+    <p class="text-sm md:text-lg">{{descripcion}}</p>
+  </article>
+  @if(reversed) {
+    <img [src]="imagen" [alt]="titulo" class="min-h-full" />
+  }
+</section>

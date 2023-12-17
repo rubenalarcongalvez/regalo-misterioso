@@ -1,0 +1,12 @@
+div#mapa {
+    background-color: #e0c79e;
+
+    div {
+        padding: 12px;
+
+        img {
+            border: 1px solid brown;
+            border-radius: 6px;
+        }
+    }
+}

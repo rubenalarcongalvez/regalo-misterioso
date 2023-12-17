@@ -1,0 +1,17 @@
+#places {
+    padding: 6px 6px 2rem 6px;
+    background-color: beige;
+
+    @media(max-width: 400px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+img {
+    border-radius: 0 0 6px 6px;
+}
+
+h3 {
+    padding: 6px;
+    border-radius: 6px 6px 0 0;
+}
