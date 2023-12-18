@@ -1,0 +1,8 @@
+#municipios {
+    padding: 6px 6px 2rem 6px;
+    background-color: beige;
+
+    @media(max-width: 400px) {
+        grid-template-columns: 1fr;
+    }
+}

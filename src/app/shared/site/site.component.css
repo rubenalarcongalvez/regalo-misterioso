@@ -1,0 +1,12 @@
+div > img {
+    border-start-start-radius: 6px;
+}
+
+#imagen {
+    border-radius: 0 0 6px 6px;
+}
+
+h3 {
+    padding: 6px;
+    border-start-end-radius: 6px;
+}

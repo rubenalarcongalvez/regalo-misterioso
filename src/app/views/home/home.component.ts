@@ -15,12 +15,12 @@ export class HomeComponent {
   constructor(private globalService: GlobalService) {
     afterRender(() => {
       clearInterval(this.globalService.intervalo);
-      document.title = '¡Un viaje a Londres!';
+      document.title = '¡Un viaje a donde quieras!';
       let link: HTMLLinkElement = document.querySelector(
         '#iconoWeb'
       ) as HTMLLinkElement;
       if (link) {
-        link.href = '/assets/bandera_uk.png';
+        link.href = '/assets/plane.png';
       }
     });
   }

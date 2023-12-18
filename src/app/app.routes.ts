@@ -1,9 +1,8 @@
 import { Routes } from '@angular/router';
-import { AppComponent } from './app.component';
 import { DedicatoriasComponent } from './views/dedicatorias/dedicatorias.component';
 import { LaExperienciaComponent } from './views/la-experiencia/la-experiencia.component';
-import { PlacesComponent } from './views/places/places.component';
-import { MapComponent } from './views/map/map.component';
+import { MunicipiosComponent } from './views/municipios/municipios.component';
+import { PaisesComponent } from './views/paises/paises.component';
 import { HomeComponent } from './views/home/home.component';
 import { GiftComponent } from './views/gift/gift.component';
 
@@ -15,10 +14,10 @@ export const routes: Routes = [
         path: 'home', component: HomeComponent
     },
     {
-        path: 'map', component: MapComponent
+        path: 'paises', component: PaisesComponent
     },
     {
-        path: 'places', component: PlacesComponent
+        path: 'municipios', component: MunicipiosComponent
     },
     {
         path: 'la-experiencia', component: LaExperienciaComponent

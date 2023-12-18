@@ -29,9 +29,9 @@ export class DedicatoriaComponent {
 
           if (contador <= 3) {
             this.originalPerro += this.palabrasPerro[0];
-          } else if (contador > 3 && contador <= 5) {
+          } else if (contador > 3 && contador <= 6) {
             this.originalPerro += this.palabrasPerro[1];
-          } else if (contador > 5 && contador <= 7) {
+          } else if (contador > 6 && contador <= 8) {
             this.originalPerro += this.palabrasPerro[2];
           } else {
             this.originalPerro += this.palabrasPerro[3];
