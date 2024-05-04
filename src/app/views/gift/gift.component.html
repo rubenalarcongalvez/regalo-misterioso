@@ -1,17 +1,17 @@
-<div style="height: 96vh; max-width: 96%;">
+<div style="height: 96vh; max-width: 96%;" class="flex items-center justify-center flex-grow">
   <div
     class="flex justify-center items-center relative cursor-pointer"
-    (click)="transicionar()"
     [ngClass]="{
       'animate-ping': clicado == true,
       'animate-shake': clicado == false
     }"
+    (click)="transicionar()"
   >
     <img
       src="assets/regalo.png"
       alt="Regalo Misterioso"
       class="bg-none w-1/2 relative"
-      style="max-height: 96vh"
+      style="max-height: 96vh;"
     />
     <h3
       class="lg:text-4xl font-serif rounded-md p-2 text-white md:text-2xl sm:text-base text-sm absolute"
